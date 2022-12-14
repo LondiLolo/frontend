@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">">
+    <title>Food for Thought | Home Page</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Food for Thought</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/pages/about.html">About</a></li>
+            <li><a href="/pages/contact.html">Contact</a></li>
+            <li><a href="/pages/blog.html">Blog</a></li>
+        </ul>
+        
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+            <div class="line4"></div>
+            <div class="line5"></div>
+
+        </div>
+    </nav>
+
+    <!-- HERO SECTION STARTS HERE-->
+    <section class="heroSection">
+        <div class="main">
+            <span class="text1">A writer begins a book</span>
+            <span class="text2">But a reader finishes it!</span>
+            <!-- <h1 class="sectionTitle">A writer begins a book <br> but a reader finishes it!</h1>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorum maxime deserunt magni voluptate quia accusantium praesentium assumenda, dolor labore quibusdam, deleniti placeat expedita asperiores libero ipsam amet dolore vitae?</h2> -->
+            <button class="hero"><a href="/pages/learnmore.html">Learn More</a></button>
+        </div>
+    </section>
+    
+    <!--HERO SECTION ENDS HERE-->
+
+    <!-- Viedeo start here -->
+    <div class="wrapper">
+        <h1>Following is a video showing the advantages of reading :</h1>
+        <video controls>
+        <source src="/videos/Advantages_of_Reading___HP_talks(360p).mp4"></video>
+    </div>
+    <!--CATERGORY SECTION STARTS HERE-->
+
+    <div class="filter-box catergory">
+        <a href="#" class=" btn active" data-filter="all">All</a>
+        <a href="#" class=" btn " data-filter="book">Book</a>
+        <a href="#" class=" btn " data-filter="Author">Author</a>
+        <a href="#" class=" btn " data-filter="Genre">Genre</a>
+        <a href="#" class=" btn " data-filter="Date-Published">Date Published</a>
+    </div>
+    <!--CATERGORY SECTION ENDS HERE-->
+
+    <section>
+       <div class="card-wrapper">
+           <div class="main-content">
+               <div class="card-itms book">
+                   <div class="blogImage"></div>
+                   <div class="blogContent">
+                    <img src="/images/download.jpg" alt="">
+                       <h4>All <span> August,13 - 2022</span></h4>
+                       <h1>All the books you can read and more!</h1>
+                       <a href="/pages/all.html">click for full details</a>
+                   </div>
+               </div>
+
+               <div class="card-itms book">
+                <div class="blogImage"></div>
+                <div class="bloContent">
+                    <img src="/images/getty_655998316_2000149920009280219_363765.jpg" alt="" width="50%">
+                    <h4>Book <span> December,16 - 2022</span></h4>
+                    <h1>What would you like to read?</h1>
+                    <a href="/pages/book.html">click for full details</a>
+                </div>
+            </div>
+
+            <div class="card-itms Date-Published">
+                <div class="blogImage"></div>
+                <div class="bloContent">
+                    <img src="/images/download (8).jpg" alt="">
+                    <h4>Date Published <span> May,29 - 2020</span></h4>
+                    <h1>Check the dates!</h1>
+                    <a href="/pages/book.html">click for full details</a>
+                </div>
+            </div>
+
+            <div class="card-itms Genre">
+                <div class="blogImage"></div>
+                <div class="bloContent">
+                    <img src="/images/download (7).jpg" alt="">
+                    <h4>Genre<span> April,03 - 2021</span></h4>
+                    <h1>Love?, Romance?, drama?, Suspense?... we have it all!</h1>
+                    <a href="/pages/book.html">click for full details</a>
+                </div>
+            </div>
+
+            <div class="card-itms Author">
+                <img src="/images/download (6).jpg" alt="">
+                <div class="blogImage"></div>
+                <div class="bloContent">
+                    <h4>Author <span> December,20 - 2022</span></h4>
+                    <h1>Who is your favourite writer?</h1>
+                    <a href="/pages/book.html">click for full details</a>
+                </div>
+            </div>
+
+           
+
+                </div>
+            </div>
+
+            <article>
+                <!-- SEARCH-->
+                <!--Not complete, still ging to implement more code -->
+                <div class="search-box">
+                    <form action="#" onsubmit="return false">
+                    <input type="text" id="search" placeholder="Search Post">
+                    </form>
+
+                </div>
+            </article>
+
+
+<div class="footer">
+            <div class="content">
+              <div class="left">
+                <a href="" class="fa fa-map-marker"></a>
+                <address>No. 30 Mandy Road <br>
+                Booysens, Gauteng
+              </address></div>
+            
+          
+            <div class="centre">
+              <a href="#" class="fa fa-phone"></a>
+              <h3>Phone</h3>
+              <p>Tel:011 5555 555</p>
+            </div>
+          
+            <div class="right">
+              <a href="" class="fa fa-envelope-o"></a>
+              <h3>Email</h3>
+            <p>Bcs@info.com</p></div>
+          </div>
+          </div>
+
+
+
+
+
+
+
+
+
+           </div>
+       </div>
+    </section>
+    <script src="./js/app.js"></script>
+</body>
+</html>

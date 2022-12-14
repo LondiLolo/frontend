@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">">
+</head>
+<style>
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: rgb(114, 199, 171);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color:rgb(34, 175, 175);
+  color: black;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color:cornflowerblue;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.footer{
+  background-color: mediumturquoise;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+
+
+<nav>
+  <div class="logo">
+      <h1>Food for Thought</h1>
+  </div>
+  <ul class="nav-links">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/pages/about.html">About</a></li>
+      <li><a href="/pages/contact.html">Contact</a></li>
+      <li><a href="/pages/blog.html">Blog</a></li>
+  </ul>
+  
+  <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+      <div class="line4"></div>
+      <div class="line5"></div>
+
+  </div>
+</nav>
+<body>
+    <div class="about-section">
+        <h1>About Us Page</h1>
+        <p>Here is where you will find the backbone team of our company and get to know them more.</p>
+       
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="/images/1_LPPpUZLved9uY_9gvRgRlw.jpeg" alt="Londi" style="width:100%">
+            <div class="container">
+              <h2>Londi Mahlangu</h2>
+              <p class="title">CEO</p>
+              <p>Ms Londi Mahlangu is the chief executive officer of the Food fo Thought company, she has held the company high up and producing promising results for the ucoming years.</p>
+              <p>londimahlangu29@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="/images/7c4438f45f4356f02d938a9b5ad14e67.jpg" alt="Nkanyezi" style="width:100%">
+            <div class="container">
+              <h2>Mrs Smith</h2>
+              <p class="title">Founder</p>
+              <p>Mrs Smith is the very soil of the company she is the one that started the company and nurtured into the success it is today.</p>
+              <p>nkanezi@yahoo.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="/images/istockphoto-1270073836-612x612.jpg" alt="Linc" style="width:100%">
+            <div class="container">
+              <h2>Nkanyezi Ntokozo</h2>
+              <p class="title">Designer</p>
+              <p>Nkanyezi head of design team, he is responsible of showing our users of the very essence of our company and has done so beautifully in the way our company image lloks like to the world.</p>
+              <p>Linc@hotmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="content">
+          <div class="left">
+            <a href="" class="fa fa-map-marker"></a>
+            <address>No. 30 Mandy Road <br>
+            Booysens, Gauteng
+          </address></div>
+        
+      
+        <div class="centre">
+          <a href="#" class="fa fa-phone"></a>
+          <h3>Phone</h3>
+          <p>Tel:011 5555 555</p>
+        </div>
+      
+        <div class="right">
+          <a href="" class="fa fa-envelope-o"></a>
+          <h3>Email</h3>
+        <p>Bcs@info.com</p></div>
+      </div>
+      </div>
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Food for Thought</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/pages/about.html">About</a></li>
+            <li><a href="/pages/contact.html">Contact</a></li>
+            <li><a href="/pages/blog.html">Blog</a></li>
+        </ul>
+        
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+            <div class="line4"></div>
+            <div class="line5"></div>
+      
+        </div>
+      </nav>
+    <style>
+        
+    * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Arial;
+        padding: 20px;
+        background-color: cadetblue;
+      }
+      
+      /* Header/Blog Title */
+      .header {
+        padding: 30px;
+        font-size: 40px;
+        text-align: center;
+        background-color: aquamarine;
+      }
+      
+      /* Create two unequal columns that floats next to each other */
+      /* Left column */
+      .leftcolumn {
+        float: left;
+        width: 75%;
+      }
+      
+      /* Right column */
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        padding-left: 20px;
+      }
+      
+      
+      /* Add a card effect for articles */
+      .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Footer */
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+      }
+      
+      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+        
+      }</style>
+    <body>
+        <div class="header">
+            <h2>Book Posts</h2>
+          </div>
+          
+          <div class="row">
+            <div class="leftcolumn">
+              <div class="card">
+                <h2>Popular Books</h2>
+                <h5>Where The Crawdads Sing, Published in 2022</h5>
+                <img src="/images/PITW_where-the-crawdads-sing-1.jpg" alt="" width="80%">
+                <p>This is one of the books that is popular in demand</p>
+              </div>
+              <div class="card">
+                <h2>Recently Added new books</h2>
+                <h5>The Feeling between 2 hearts, Published in valentines dawn of the year 2020</h5>
+                <img src="/images/download_6.jpg" alt="">
+                <p>This book identifies all the feelings of love between two people</p>
+              </div>
+            </div>
+            <div class="rightcolumn">
+              <div class="card">
+                <h2>Educational books</h2>
+                <img src="/images/40097951.jpg" alt="" width="40%">
+                <p>If you want to learn more on what it takes to master one of the human qualities of knowing how to be patient then this is the book for you</p>
+              </div>
+              <div class="card">
+                <h3>Entertainment books</h3>
+                <img src="/images/download.jpg" alt="" width="60%"><br>
+                <img src="/images/download (6).jpg" alt="" width="80%"><br>
+                <img src="/images/best-summer-fashion-trends-2020-286587-1585947926510-image.700x0c.jpg" alt="" width="50%">
+                
+              </div>
+              <div class="card">
+                <h3>Follow Me On:</h3>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="footer">
+            <div class="content">
+              <div class="left">
+                <a href="" class="fa fa-map-marker"></a>
+                <address>No. 30 Mandy Road <br>
+                Booysens, Gauteng
+              </address></div>
+            
+          
+            <div class="centre">
+              <a href="#" class="fa fa-phone"></a>
+              <h3>Phone</h3>
+              <p>Tel:011 5555 555</p>
+            </div>
+          
+            <div class="right">
+              <a href="" class="fa fa-envelope-o"></a>
+              <h3>Email</h3>
+            <p>Bcs@info.com</p></div>
+          </div>
+          </div>
+</body>
+</html>

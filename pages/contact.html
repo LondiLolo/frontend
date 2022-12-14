@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">">
+    <title>Document</title>
+</head>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color:aquamarine;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  </style>
+  </head>
+  <body>
+
+    <nav>
+      <div class="logo">
+          <h1>Food for Thought</h1>
+      </div>
+      <ul class="nav-links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/pages/about.html">About</a></li>
+          <li><a href="/pages/contact.html">Contact</a></li>
+          <li><a href="/pages/blog.html">Blog</a></li>
+      </ul>
+      
+      <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+          <div class="line4"></div>
+          <div class="line5"></div>
+    
+      </div>
+    </nav>
+<body>
+    <div class="container">
+        <div style="text-align:center">
+          <h1>Contact Us</h1>
+          <h2>Swing by for a cup of coffee, or leave us a message:</h2>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="/images/locations.png" style="width:100%">
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="Country"></label>
+              <input type="text" id="Country" name="Country" placeholder="Country">
+             
+              <!-- <select id="country" name="country">
+                <option value="australia">South Africa</option>
+                <option value="canada">Europe</option>
+                <option value="usa">USA</option>
+              </select> --> 
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+</div>
+
+<div class="footer">
+  <div class="content">
+    <div class="left">
+      <a href="" class="fa fa-map-marker"></a>
+      <address>No. 30 Mandy Road <br>
+      Booysens, Gauteng
+    </address></div>
+  
+
+  <div class="centre">
+    <a href="#" class="fa fa-phone"></a>
+    <h3>Phone</h3>
+    <p>Tel:011 5555 555</p>
+  </div>
+
+  <div class="right">
+    <a href="" class="fa fa-envelope-o"></a>
+    <h3>Email</h3>
+  <p>Bcs@info.com</p></div>
+</div>
+</div>
+    
+</body>
+</html>
