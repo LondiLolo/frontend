@@ -142,6 +142,7 @@ nav > .burger > div{
    background-color: var(--text-color);
 }
 
+
 /* HERO SECTION ENDS HERE */
 
 .catergory{
@@ -177,6 +178,7 @@ nav > .burger > div{
     gap: 15px;
 }
 .card-itms{
+    flex-direction: column;
     display: flex;
     width: 100%;
     border-bottom: 1px solid grey;
@@ -184,7 +186,7 @@ nav > .burger > div{
 .blogImage{
     width: 100%;
     display: flexbox;
-    justify-content: space-between;
+    justify-content: center;
 }
 .blogImage img{
     width: 100%;
@@ -205,6 +207,10 @@ article > div.search-box input {
 
 }
 
+.card-itms button{
+    background-color: aqua;
+    border-radius: 40px;
+}
 .bloContent{
     display: flex;
     flex-direction: column;
